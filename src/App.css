@@ -5,12 +5,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+}
 
+::selection {
+  color: white;
+  background: black;
+}
+
+html {
+  --scrollbarBG: transparent;
+  --thumbBG: black;
+}
 body {
   font-family: "Open Sans Condensed";
   padding: 20px 60px;
 }
-
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 1px;
+  border: 1px solid var(--scrollbarBG);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
 a {
   text-decoration: none;
   color: black;
