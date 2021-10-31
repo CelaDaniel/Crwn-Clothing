@@ -17,7 +17,29 @@
     flex-direction: column;
     overflow: scroll;
     overflow-x: hidden;
+    --scrollbarBG: transparent;
+    --thumbBG: black;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
+    &::-webkit-scrollbar {
+      width: 11px;
+    }
+    &::-webkit-scrollbar-track {
+      background: var(--scrollbarBG);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--thumbBG) ;
+      border-radius: 5px;
+      border: 1px solid var(--scrollbarBG);
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+}
   }
+
+
 
   button {
     margin-top: auto;

@@ -35,12 +35,12 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
-  border-radius: 1px;
+  border-radius: 5px;
   border: 1px solid var(--scrollbarBG);
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 a {
   text-decoration: none;
