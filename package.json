@@ -3,26 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "firebase": "^9.5.0",
-    "node-sass": "^6.0.1",
+    "firebase": "^9.6.10",
+    "node-sass": "^7.0.1",
     "npm-buildpack": "^0.1.10",
     "npx": "^10.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.6",
+    "react-redux": "^7.2.8",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.0",
     "react-stripe-checkout": "^2.6.3",
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "^2.4.0",
-    "reselect": "^4.1.4",
-    "styled-components": "^5.3.3",
-    "web-vitals": "^2.1.2"
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.5",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -49,9 +49,9 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@types/react-router-dom": "^5.3.2",
-    "@types/styled-components": "^5.1.15",
-    "typescript": "^4.5.2"
+    "@babel/core": "^7.17.8",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.24",
+    "typescript": "^4.6.3"
   }
 }
