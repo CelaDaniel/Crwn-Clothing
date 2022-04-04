@@ -26,9 +26,7 @@
         "@babel/core": "^7.17.8",
         "@types/react-router-dom": "^5.3.3",
         "@types/styled-components": "^5.1.24",
-        "typescript": "^4.6.3",
-        "ansi-regex": ">=3.0.1",
-        "tar": ">=4.4.18",
+        "typescript": "^4.6.3"
     },
     "scripts": {
         "start": "react-scripts start",
